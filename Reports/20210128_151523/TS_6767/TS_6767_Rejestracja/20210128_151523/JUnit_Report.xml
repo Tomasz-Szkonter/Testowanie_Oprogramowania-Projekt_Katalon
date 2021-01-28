@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_6767_Rejestracja" time="29.666" tests="2" failures="0" errors="0">
+   <testsuite name="TS_6767_Rejestracja" tests="2" failures="0" errors="0" time="29.666" timestamp="2021-01-28 15:15:27" hostname="Administrator - LAPTOP-J5BHFBAC.lan" id="Test Suites/TS_6767/TS_6767_Rejestracja">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\Projekt_Testowanie_6767\\Reports\\20210128_151523\\TS_6767\\TS_6767_Rejestracja\\20210128_151523"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\Projekt_Testowanie_6767\\Reports\\20210128_151523\\TS_6767\\TS_6767_Rejestracja\\20210128_151523\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - LAPTOP-J5BHFBAC.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="192.168.1.163"/>
+         <property name="sessionId" value="fb0462bba8c2de145ff8e39e7fe309f9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_6767/TC_6767_Rejestracja" time="14.34" classname="Test Cases/TC_6767/TC_6767_Rejestracja" status="PASSED">
+         <system-out><![CDATA[2021-01-28 15:15:28 - [TEST_CASE][PASSED] - Test Cases/TC_6767/TC_6767_Rejestracja: Test Cases/TC_6767/TC_6767_Rejestracja
+
+2021-01-28 15:15:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-28 15:15:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-28 15:15:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-28 15:15:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-28 15:15:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.warcraftlogs.com/register/"): Navigate to 'https://www.warcraftlogs.com/register/' successfully
+
+2021-01-28 15:15:35 - [MESSAGE][PASSED] - Navigate to 'https://www.warcraftlogs.com/register/' successfully
+
+2021-01-28 15:15:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/button_AGREE")): Object: 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/button_AGREE' is clicked on
+
+2021-01-28 15:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/button_AGREE' is clicked on
+
+2021-01-28 15:15:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_E-mail Address_email"), "Testowanko@gmail.com"): Text 'Testowanko@gmail.com' is set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_E-mail Address_email'
+
+2021-01-28 15:15:38 - [MESSAGE][PASSED] - Text 'Testowanko@gmail.com' is set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_E-mail Address_email'
+
+2021-01-28 15:15:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Confirm E-mail_email_confirmation"), "Testowanko@gmail.com"): Text 'Testowanko@gmail.com' is set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Confirm E-mail_email_confirmation'
+
+2021-01-28 15:15:39 - [MESSAGE][PASSED] - Text 'Testowanko@gmail.com' is set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Confirm E-mail_email_confirmation'
+
+2021-01-28 15:15:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Username_name"), "Testowanko123"): Text 'Testowanko123' is set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Username_name'
+
+2021-01-28 15:15:40 - [MESSAGE][PASSED] - Text 'Testowanko123' is set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Username_name'
+
+2021-01-28 15:15:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Password_password"), "2oA+oAfFuUmLKORqhD+2KQ=="): Text ****** has been set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Password_password'
+
+2021-01-28 15:15:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Password_password'
+
+2021-01-28 15:15:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Confirm Password_password_confirmation"), "2oA+oAfFuUmLKORqhD+2KQ=="): Text ****** has been set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Confirm Password_password_confirmation'
+
+2021-01-28 15:15:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Confirm Password_password_confirmation'
+
+2021-01-28 15:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input")): Object: 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input' is clicked on
+
+2021-01-28 15:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_6767/TC_6767_Rejestracja_bledna" time="13.844" classname="Test Cases/TC_6767/TC_6767_Rejestracja_bledna" status="PASSED">
+         <system-out><![CDATA[2021-01-28 15:15:42 - [TEST_CASE][PASSED] - Test Cases/TC_6767/TC_6767_Rejestracja_bledna: Test Cases/TC_6767/TC_6767_Rejestracja_bledna
+
+2021-01-28 15:15:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-28 15:15:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-01-28 15:15:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-28 15:15:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-28 15:15:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-28 15:15:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.warcraftlogs.com/register/"): Navigate to 'https://www.warcraftlogs.com/register/' successfully
+
+2021-01-28 15:15:48 - [MESSAGE][PASSED] - Navigate to 'https://www.warcraftlogs.com/register/' successfully
+
+2021-01-28 15:15:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/button_AGREE")): Object: 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/button_AGREE' is clicked on
+
+2021-01-28 15:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/button_AGREE' is clicked on
+
+2021-01-28 15:15:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_E-mail Address_email"), "Testowanko@gmail.com"): Text 'Testowanko@gmail.com' is set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_E-mail Address_email'
+
+2021-01-28 15:15:52 - [MESSAGE][PASSED] - Text 'Testowanko@gmail.com' is set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_E-mail Address_email'
+
+2021-01-28 15:15:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Confirm E-mail_email_confirmation"), "Testowanie@gmail.com"): Text 'Testowanie@gmail.com' is set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Confirm E-mail_email_confirmation'
+
+2021-01-28 15:15:53 - [MESSAGE][PASSED] - Text 'Testowanie@gmail.com' is set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Confirm E-mail_email_confirmation'
+
+2021-01-28 15:15:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Username_name"), "Testowanie123"): Text 'Testowanie123' is set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Username_name'
+
+2021-01-28 15:15:54 - [MESSAGE][PASSED] - Text 'Testowanie123' is set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Username_name'
+
+2021-01-28 15:15:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Password_password"), "2oA+oAfFuUmLKORqhD+2KQ=="): Text ****** has been set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Password_password'
+
+2021-01-28 15:15:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Password_password'
+
+2021-01-28 15:15:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Confirm Password_password_confirmation"), "2oA+oAfFuUmLKORqhD+2KQ=="): Text ****** has been set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Confirm Password_password_confirmation'
+
+2021-01-28 15:15:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input_Confirm Password_password_confirmation'
+
+2021-01-28 15:15:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input")): Object: 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input' is clicked on
+
+2021-01-28 15:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Warcraft Logs - Combat Analysis for Warcraft/input' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-28 15:15:27 - [TEST_SUITE][PASSED] - TS_6767_Rejestracja: Test Cases/TC_6767/TC_6767_Rejestracja_bledna]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
